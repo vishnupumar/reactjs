@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>React create Element</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+        function app(){
+            let heading = React.createElement(
+            "h1", { style: { color: "green" } }, "Topics Covered"
+            )
+            let para = React.createElement(
+                "p",null,"The following is a list of all the topics we coverin the MDN learning area."
+            )
+            let link = React.createElement(
+                "a",{href:"#"},"Getting started with web"
+            )
+            let para2 = React.createElement(
+                "p",null,"Provides a practical introduction to web development for complete beginners."
+            )
+            let link2 = React.createElement(
+                "a",{href:"#"},"HTML --Structuring the web"
+            )
+            let para3 = React.createElement(
+                "p",null,
+                "HTML is the language that we use to structure the different parts of our content and define what their meaning or purpose"
+            )
+            let link3 = React.createElement(
+                "a",{href:"#"},"CSS styling the web"
+            )
+            let para4 = React.createElement(
+                "p",null,
+                "CSS is the language that we use to control our web content's style and layout as well as adding behaviour like animation."
+            )
+            ReactDOM.render(
+            [heading,para,link,para2,link2,para3,link3,para4],
+            document.getElementById('root')
+            );
+        }
+        
+        app()
+        
+        
+    </script>
+</body>
+</html>

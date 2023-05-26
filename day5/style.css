@@ -1,0 +1,68 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+#root{
+    width: 300px;
+    margin: 70px auto;
+}
+.card{
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid #cecaca;
+    box-shadow: 0 0 10px #d1cfd1;
+    border-radius: 10px;
+    position: relative;
+}
+
+.follower-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.numbers{
+    color: #161616;
+    font-weight: bolder;
+}
+.number-name{
+    color: #817e81;
+    font-size: 0.8rem;
+}
+
+.card>img{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 10px;
+    border-radius: 10px 10px 0 0;
+}
+.card>h3{
+    color: #181718;
+    font-size: 1.5rem;
+}
+.card>p{
+    color: #817e81;
+    padding: 10px;
+}
+.online{
+    background-color: rgb(236, 35, 129);
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+    top: 10px;
+    left: 10px;
+}
+.three-dots{
+    position: absolute;
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 10px;
+    top: 10px;
+    right: 5px;
+}
+

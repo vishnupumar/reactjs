@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Resume with React.createElement</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+        let resume = React.createElement('div',null,[
+            React.createElement('h1',null,"Vishnu Pumar"),
+            React.createElement('p',null,"Software Developer ,Student at Geekster"),
+            React.createElement('a',{href:"https://www.linkedin.com/in/vishnu-pumar/"},"Linkedin"),
+            React.createElement('span',null," "),
+            React.createElement('a',{href:"https://github.com/vishnupumar"},"Github"),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Certifications | Internships"),
+            React.createElement('hr',null,null),
+            React.createElement('h3',null,"Geekster | Geekster Coding Bootcamp"),
+            React.createElement('ul',null,[
+                React.createElement("li",null,"Solved 200+ DSA/Coding questions on geekster platform."),
+                React.createElement("li",null,"Participated in various Coding contests organised by the platform."),
+                React.createElement("li",null,"Worked on various projects like \"Blog-website,Authentication\"."),
+                React.createElement("li",null,"Technical Stack Learned: \"HTML,CSS,JavaScript,Bootstrap,SQL, MongoDBandJava\".")
+            ]),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Projects"),
+            React.createElement('hr',null,null),
+            React.createElement('h3',null,"Blog-Website"),
+            React.createElement('ul',null,[
+                React.createElement("li",null,"Developed a project called Blog Website. It stores title and content dynamically."),
+                React.createElement("li",null,"I have implemented a compose page where users can publish articles and a brand new page will be created just for that post."),
+                React.createElement("li",null,"Technologies used : node js, mongoDB, EJS."),
+            ]),
+            React.createElement('h3',null,"Blog-Website"),
+            React.createElement('ul',null,[
+                React.createElement("li",null,"Developed secure authentication by using Salting and Hashing to encrypt database and also created Google Open Authorisation 2.0 using Google Api."),
+                React.createElement("li",null,"I have created this project to understand more about how to encrypt database and provide security."),
+                React.createElement("li",null,"Technologies used : node js, mongoDB."),
+            ]),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Skills"),
+            React.createElement('ul',null,[
+                React.createElement("li",null,"Java"),
+                React.createElement("li",null,"JavaScript"),
+                React.createElement("li",null,"Data Structures and Algorithms"),
+                React.createElement("li",null,"GIT"),
+            ]),
+            React.createElement('hr',null,null),
+            React.createElement('h2',null,"Hobbies"),
+            React.createElement('ol',null,[
+                React.createElement("li",null,"Badminton"),
+                React.createElement("li",null,"Coding"),
+                React.createElement("li",null,"Meditation"),
+                React.createElement("li",null,"listening to music"),
+            ]),
+            React.createElement('hr',null,null),
+        ])
+        ReactDOM.render(resume,document.getElementById("root"))
+    </script>
+</body>
+</html>

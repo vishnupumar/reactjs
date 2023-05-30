@@ -1,0 +1,8 @@
+.main{
+    text-align: center;
+}
+.main>h2{
+    font-size: 2rem;
+    color: rgb(2, 13, 22);
+    padding: 20px;
+}

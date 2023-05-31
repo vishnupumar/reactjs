@@ -1,0 +1,21 @@
+.main{
+    background-color: rgb(13, 52, 87);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px;
+}
+.main>h2{
+    font-size: 2.5rem;
+    padding: 0 0 10px 0;
+}
+.main>p{
+    padding: 0 0 20px 0;
+    color: #cfcfcf;
+}
+.main>.demo{
+    background-color: #2db143;
+    padding: 10px 20px;
+    font-weight: 800;
+    border: none;
+    color: #fffefe;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left-nav{
+    color: rgb(17, 2, 31);
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right-nav{
+    margin-right: 50px;
+  }
+  .nav-bar>.right-nav>.signup{
+    background-color: #2db143;
+    border: none;
+    padding: 7px 15px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+  .nav-bar>.right-nav>a{
+    color: #5c5a5a;
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0d9d9;
+    padding: 15px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    margin: 0 25px;
+  }

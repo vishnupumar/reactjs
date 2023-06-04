@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "name": "Monu Jet",
+      "gender": "male",
+      "id": 11
+    },
+    {
+      "name": "Sanju Gor",
+      "gender": "male",
+      "id": 12
+    },
+    {
+      "name": "Rajesh gupta",
+      "gender": "male",
+      "id": 13
+    },
+    {
+      "name": "Abhi sri",
+      "gender": "female",
+      "id": 16
+    },
+    {
+      "name": "Raja Sri",
+      "gender": "female",
+      "id": 17
+    },
+    {
+      "name": "Anu Sri",
+      "gender": "female",
+      "id": 18
+    },
+    {
+      "name": "Srivastava walter",
+      "gender": "male",
+      "id": 20
+    },
+    {
+      "name": "Vishnu",
+      "gender": "male",
+      "id": 21
+    },
+    {
+      "name": "lasya",
+      "gender": "female",
+      "id": 22
+    },
+    {
+      "name": "Rahul Vai",
+      "gender": "male",
+      "id": 23
+    },
+    {
+      "name": "Akshay",
+      "gender": "male",
+      "id": 24
+    }
+  ]
+}

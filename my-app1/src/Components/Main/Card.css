@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid #ebe6e6;
+    box-shadow: 0 0 10px #e2e7e6;
+    border-radius: 10px;
+    width: 220px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.card>.title{
+    padding: 5px;
+    color: #2b2a2a;
+}
+.card>.gender{
+    padding: 5px 0 20px 0;
+    color: #665f5f;
+}
+
+img{
+    height: 200px;
+    width: 100%;
+}
+.card>button{
+    
+    padding: 5px 20px;
+    width: 100%;
+    background-color: #12be99;
+    border: none;
+}

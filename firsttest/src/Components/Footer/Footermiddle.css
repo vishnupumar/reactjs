@@ -1,0 +1,19 @@
+.footer-middle{
+    width: 300px;
+}
+
+
+.footer-middle>h3{
+    padding: 10px;
+    font-weight: 400;
+    font-style: bold;
+}
+.footer-middle>div>h5{
+    font-weight: 500;
+    padding-top: 10px;
+}
+.footer-middle>div>p{
+    font-weight: 400;
+    color: #969393;
+    font-size: 0.8rem;
+}

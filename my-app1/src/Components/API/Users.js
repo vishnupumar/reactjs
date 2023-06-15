@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import "./Users.css"
 import { deleteData, getData, sendData, updateData } from './Api';
 
@@ -16,7 +16,9 @@ const Users = () => {
         }
         sendData(userObj,setState,setPerson)
     }
-
+    // useEffect(()=>{
+    //   getData(setState)
+    // },[])
     function handleData(){
       getData(setState)
     }

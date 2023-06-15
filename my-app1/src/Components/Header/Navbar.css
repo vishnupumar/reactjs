@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
 }
-.logo{
+.nav-bar>.logo{
     color: rgb(6, 179, 78);
     margin-left: 20px;
+  }
+  .nav-bar>.logo>h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .nav-bar{
     display: flex;
@@ -14,7 +19,11 @@
     padding: 5px;
     margin-bottom: 10px;
   }
-  a{
+  .nav-bar>.menus{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-bar>.menus>a{
     text-decoration: none;
     color: black;
     margin: 0 50px;

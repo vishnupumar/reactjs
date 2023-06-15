@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Todo = ({addTodo, handleDelete}) => {
+const Todo = ({addTodo}) => {
   const [todo, setTodo] = useState("");
 
   const handleText =(e) => {
